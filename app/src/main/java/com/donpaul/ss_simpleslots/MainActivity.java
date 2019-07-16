@@ -11,12 +11,12 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final Random RANDOM = new Random();
     private TextView msg;
     private ImageView img1,img2,img3;
     private Wheel wheel1,wheel2,wheel3;
     private Button btn;
     private boolean isStarted;
+    public static final Random RANDOM = new Random();
 
     public static long randomLong(long lower, long upper){
         return lower + (long)(RANDOM.nextDouble() * (upper - lower));

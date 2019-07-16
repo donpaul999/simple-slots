@@ -4,10 +4,10 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff704d"
-    android:paddingTop="16dp"
     android:paddingBottom="16dp"
-    tools:context="com.donpaul.ss_simpleslots.MainActivity">
+    android:paddingTop="16dp"
+    tools:context="com.donpaul.ss_simpleslots.MainActivity"
+    android:background="@drawable/bg">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="1200dp"
             android:orientation="horizontal" />
 
         <ImageView
@@ -52,17 +52,20 @@
             android:id="@+id/msg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
             android:layout_below="@id/imgs"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"/>
+            android:layout_centerHorizontal="true"/>
 
         <Button
             android:id="@+id/btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/msg"
-            android:layout_centerHorizontal="true"
+            android:text="Start"
             android:layout_marginTop="300dp"
-            android:text="Start"/>
+            android:layout_below="@id/msg"
+            android:layout_centerHorizontal="true"/>
 
     </RelativeLayout>
